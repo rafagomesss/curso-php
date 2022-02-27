@@ -1,10 +1,10 @@
 body.exercicio {
     grid-template-rows: 120px 60px 1fr 60px;
-    grid-template-areas:
-        'cabecalho'
-        'navegacao'
-        'principal'
-        'rodape';
+    grid-template-areas: 
+        "cabecalho"
+        "navegacao"
+        "principal"
+        "rodape";
 }
 
 .principal {
@@ -19,29 +19,26 @@ body.exercicio {
     background-color: #555555;
 }
 
-.navegacao>a {
+.navegacao > a {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 300;
     font-size: 1.3rem;
-    background-color: #2196f3;
+    background-color: rgb(33, 150, 243);
     padding: 5px 10px;
     margin-right: 10px;
 }
 
-.navegacao>a.verde {
-    background-color: #4CAF50;
-}
+.navegacao > a.verde { background-color: #4CAF50; }
 
-.navegacao>a.vermelho {
-    background-color: #F44336;
-}
+.modulo.vermelho { border: 2px solid #F44336; }
+.navegacao > a.vermelho  { background-color: #F44336; }
 
 .conteudo {
     font-size: 2rem;
 }
 
-.conteudo>.titulo {
+.conteudo > .titulo {
     font-size: 2.5rem;
     font-weight: 300;
     padding-bottom: 10px;
